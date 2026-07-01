@@ -575,6 +575,7 @@
                         <i class="fa-solid fa-robot"></i>
                         <span>Solis</span>
                     </a>
+                    <a href="#about" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })" class="hover:text-[#FFD700] transition-colors">About</a>
                 </div>
 
                 <!-- Right Side Actions -->
@@ -635,7 +636,7 @@
                 <div class="lg:col-span-7 text-center lg:text-left">
                     <div class="inline-flex items-center gap-x-2 px-4 py-1.5 rounded-full glass mb-6 border border-[#FFD700]/30">
                         <div class="w-2 h-2 bg-[#FFD700] rounded-full animate-pulse"></div>
-                        <span class="text-sm font-medium tracking-[2px] text-[#FFD700]">SCHOOL YEAR 2025-2026</span>
+                        <span class="text-sm font-medium tracking-[2px] text-[#FFD700]">SCHOOL YEAR 2026-2027</span>
                     </div>
                     
                     <h1 class="font-display text-7xl lg:text-8xl font-bold tracking-tighter leading-none mb-4">
@@ -681,7 +682,7 @@
     <section class="max-w-screen-2xl mx-auto px-6 pt-16 pb-12">
         <div class="grid lg:grid-cols-12 gap-8 items-center">
             <div class="lg:col-span-7">
-                <div class="uppercase tracking-[3px] text-[#FFD700] text-sm font-semibold mb-3">EST. 2018 • CREATIVE MEDIA ARTS</div>
+                <div class="uppercase tracking-[3px] text-[#FFD700] text-sm font-semibold mb-3">EST. 2025 • CREATIVE MEDIA ARTS</div>
                 <h2 class="section-header mb-5">We turn moments into<br>memories that matter.</h2>
                 <p class="text-[#B8B8D0] max-w-prose text-[15px]">
                     Multi Media is the beating heart of our school's creative ecosystem.
@@ -809,6 +810,46 @@
                 </div>
                 <span class="text-sm font-medium">Instagram</span>
             </a>
+        </div>
+    </section>
+
+    <!-- ABOUT THE DEVELOPER -->
+    <section id="about" class="max-w-screen-2xl mx-auto px-6 py-20 border-t border-white/10">
+        <h2 class="section-header text-center mb-12">About the Developer</h2>
+        
+        <div class="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
+            <!-- Profile Image -->
+            <div class="flex justify-center">
+                <div class="w-64 h-64 relative">
+                    <img src="images/developer.jpg" 
+                         onerror="this.src='https://i.pravatar.cc/300?u=kaitorenn'" 
+                         alt="Kaitorenn - Creator" 
+                         class="w-full h-full rounded-full object-cover border-4 border-[#FFD700] shadow-lg glow-gold">
+                    <div class="absolute -bottom-2 -right-2 w-12 h-12 bg-[#FFD700] rounded-full flex items-center justify-center shadow-lg">
+                        <i class="fa-solid fa-code text-[#0A0A1F] text-xl"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bio Text -->
+            <div>
+                <h3 class="font-display text-3xl font-semibold mb-3">Ron Matthew Ferreras</h3>
+                <p class="text-[#B8B8D0] mb-6">
+                    I made this website so that students can have a centralized hub for all multimedia activities. As a passionate developer and designer, I wanted to create an interactive and engaging platform that fosters creativity and collaboration among students. This project is a testament to the power of technology in enhancing educational experiences.
+                </p>
+                
+                <div class="flex gap-4 flex-wrap">
+                    <a href="#" class="glass px-5 py-2.5 rounded-2xl border border-white/10 hover:border-[#FFD700] transition-all inline-flex items-center">
+                        <i class="fa-solid fa-globe mr-2"></i> Portfolio
+                    </a>
+                    <a href="#" class="glass px-5 py-2.5 rounded-2xl border border-white/10 hover:border-[#FFD700] transition-all inline-flex items-center">
+                        <i class="fa-brands fa-github mr-2"></i> GitHub
+                    </a>
+                    <a href="#" class="glass px-5 py-2.5 rounded-2xl border border-white/10 hover:border-[#FFD700] transition-all inline-flex items-center">
+                        <i class="fa-solid fa-envelope mr-2"></i> Contact
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
